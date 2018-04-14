@@ -1,0 +1,110 @@
+<html>
+<head>
+<style>
+    body  {
+    background-image: url("http://www.siwallpaperhd.com/wp-content/uploads/2016/07/colorful_polygons_hd_wallpaper.jpg");
+    background-color: #cccccc;
+}
+    #name
+    {   font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+         font-size: 500%;
+    }
+ #tb
+    {text-align: center;
+     background-color:blueviolet;
+     font-size:18pt;
+     height:420px;
+     width:420px;
+    -moz-border-radius:210px; /* Firefox */
+    -webkit-border-radius: 210px; /* Safari, Chrome */
+    -khtml-border-radius:210px; /* KHTML */
+    border-radius: 210px; /* CSS3 */
+    behavior:url("border-radius.htc");
+    }    
+#ch
+{   background-color:black;
+     height:10px;
+     width:340px;
+ margin-top: -345px;
+  margin-left: 508px;}
+#add
+    {font-size:40px;
+    color: black}
+#BOX
+{  margin-left: 150px;
+}
+#ans
+{margin-top: -270px; margin-left: 750px;
+font-family: Arial, Helvetica, sans-serif;
+ font-size: 800%;}
+</style>
+</head>
+<body>
+
+<h1 id="name">CANTOR</h1>
+<div id="BOX">
+    <input id="tb" type="text" align="middle">
+    <p id="ans"></p>
+</div>
+    <input type="hidden" name="smname" id="smname" >
+    <button id="ch" onclick="myFunction()"></button>
+<script>
+function myFunction() 
+{
+        if(smname.value==1)
+    {
+var stri = document.getElementById("tb");
+var string=stri.value;
+var res2 = string.substr(4);
+var str1 = "https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=";
+        var str2 = res2;
+        var sf = str1.concat(str2);
+        window.location.href = sf;
+    }
+if(smname.value==2)
+    {
+var stri = document.getElementById("tb");
+var string=stri.value;
+var res2 = string.substr(4);
+var str1 = "https://www.facebook.com/search/top/?q=";
+        var str2 = res2;
+        var sf = str1.concat(str2);
+        window.location.href = sf;
+    }
+if(smname.value==3)
+    {
+var stri = document.getElementById("tb");
+var string=stri.value;
+var res2 = string.substr(4);
+var str1 = "http://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=";
+        var str2 = res2;
+        var sf = str1.concat(str2);
+        window.location.href = sf;
+    }
+if(smname.value==4)
+    {
+var stri = document.getElementById("tb");
+var string=stri.value;
+var res2 = string.substr(4);
+var str1 = "https://www.youtube.com/results?search_query=";
+        var str2 = res2;
+        var sf = str1.concat(str2);
+        window.location.href = sf;
+    }
+if(smname.value==5)
+    {
+var stri = document.getElementById("tb");
+var string=stri.value;
+var res2 = string.substr(4);
+var str1 = "https://www.google.co.in/maps/place/";
+        var str2 = res2;
+        var sf = str1.concat(str2);
+        window.location.href = sf;
+    }
+
+}
+</script> 
+    <script src="onefinal.js"></script>
+</body>
+</html>
